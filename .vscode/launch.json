@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program",
+            "request": "launch",
+            "mainClass": "Program",
+            "projectName": "AdventOfCode_ebb59d61"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program4",
+            "request": "launch",
+            "mainClass": "Program4"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program3",
+            "request": "launch",
+            "mainClass": "Program3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program2",
+            "request": "launch",
+            "mainClass": "Program2",
+            "projectName": "AdventOfCode_ebb59d61"
+        }
+    ]
+}
