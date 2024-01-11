@@ -11,17 +11,15 @@ def main(file_name):
             line = line.strip()
 
             if (line):
-                if (len(calories) == i):
-                    calories.append(int(line))
-                else:
+                try:
                     calories[i] += int(line)
+                except IndexError:
+                    calories.append(int(line))
             else:
                 i += 1
 
-    print(calories)
-    print(max(calories))
+        print(max(calories))
 
 
 if __name__ == '__main__':
-    file_name = 'input-real.txt'
-    main(file_name)
+    main('input-real.txt')
